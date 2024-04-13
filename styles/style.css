@@ -12,7 +12,10 @@
     background-position: bottom center;
     background-image: url('../image/sky.jpg');
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
+
+
 .hero h1{
     color: azure;
     font-size: 100px;
@@ -30,12 +33,10 @@
 .art , #type{
     width: 75%;
     margin:100px auto;
-    background-color: cornflowerblue;
+    background: linear-gradient(45deg ,pink,blueviolet);
     padding: 18px;
-    border:8px ;
-    border-style: groove;
-    border-color:  blue;}
-    .art h2{
+}
+    .art h2,#type h2{
         font-size: 44px;
         text-align: center;
         border: 3px;
@@ -52,4 +53,16 @@
         display: inline-block;
         width: 500px;
         background-color: blueviolet;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: space-around;
+    }
+    .images div{
+        min-width: 300px;
+    }
+    .images img{
+        width: 100%;
     }
