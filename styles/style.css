@@ -1,3 +1,55 @@
-h1{
-    color: red;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+</style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
 }
+.hero{
+    background-size: cover;
+    background-position: bottom center;
+    background-image: url('../image/sky.jpg');
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight:900;
+    font-family: cursive;
+    padding-top: 60px;
+
+    word-spacing: 10px;
+    letter-spacing: 5px 
+    
+    ;
+}
+
+.art , #type{
+    width: 75%;
+    margin:100px auto;
+    background-color: cornflowerblue;
+    padding: 18px;
+    border:8px ;
+    border-style: groove;
+    border-color:  blue;}
+    .art h2{
+        font-size: 44px;
+        text-align: center;
+        border: 3px;
+        border-color: blueviolet;
+        
+        border-style: solid;
+    }
+    .art p{
+        font-size: 28px;
+        line-height: 1.5em;
+    }
+    .art p .imp{
+        font-size:2em;
+        display: inline-block;
+        width: 500px;
+        background-color: blueviolet;
+    }
